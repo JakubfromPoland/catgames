@@ -4,7 +4,7 @@ var auth = document.getElementById("auth")
 
 play.addEventListener('click', function(){
     if (option.value === 'Pet sim c') {
-        window.open('https://chat.openai.com/');
+        window.open('');
     }
     if (option.value === 'Big paintbal'){
         window.open('')
