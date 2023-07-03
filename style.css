@@ -163,3 +163,10 @@ abbr {
     right: 800px;
     bottom: 450px;
 }
+#kanal
+{
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    width: 500px;
+}
