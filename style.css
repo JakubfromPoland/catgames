@@ -68,18 +68,6 @@ body {
     bottom: 500px;
 }
 
-#auto {
-    color: rgb(227, 13, 255);
-    background-color: aqua;
-    font-size: 60px;
-    border-radius: 10px;
-    width: 200px;
-    position: absolute;
-    bottom: 500px;
-    right: 1000px;
-    border: 0px;
-}
-
 abbr {
     text-decoration: none;
 }
@@ -111,16 +99,26 @@ abbr {
     padding: 15px;
 }
 
+@keyframes play {
+    from {
+        transform: translateY(0) rotate(0);
+    }
+    to {
+        transform: translateY(450px) rotate(360deg);
+    }
+}
+
 #play {
+    animation: play 4s forwards;
     color: rgb(227, 13, 255);
     background-color: aqua;
     font-size: 60px;
     border-radius: 10px;
-    width: 200px;
     position: absolute;
-    bottom: 500px;
     border: 0px;
-    right: 700px; 
+    max-height: 100px;
+    top: 0;
+    right: 1000px;
 }
 
 #linia {
@@ -162,6 +160,6 @@ abbr {
     color: aqua;
     background-color: blueviolet;
     position: absolute;
-    right: 750px;
+    right: 800px;
     bottom: 450px;
 }
